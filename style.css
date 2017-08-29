@@ -1,0 +1,167 @@
+html,body{
+  padding:0;
+  margin:0;
+}
+body{
+ background:url("http://freedesignfile.com/upload/2017/03/Cartoon-pop-art-backgrounds-vectors-10.jpg"); 
+}
+h1{
+  text-align:left;
+  margin-bottom:40px;
+  margin-left:10px;
+ font-weight:bold;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:3em;
+  border-left:2px solid;
+  border-top:2px dotted;
+  width:250px;
+  display:inline-block;
+}
+.container{
+  max-width:700px;
+  margin: auto;
+  background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMkS0I4RZmyEty_edCQJBqvxMg1IYlQDtugYfhdCZsGnC9V9CD");
+  background:cover;
+  min-height:800px;
+}
+
+a{
+ color:SlateBlue  ; 
+  target:_blank;
+  margin-left:5px;
+  font-size:1.1em;
+}
+img{
+  max-width:100px;
+  max-height:100px;
+  border-radius:50%;
+  margin:5px;
+}
+.offline{
+  border:2px solid ;
+  background:  #F4A460;
+  padding-left:5px;
+  margin-bottom:10px;
+  border-radius:5px;
+  margin:5px;
+  opacity:0.8;
+  transition:1s;
+}
+.offline:hover{
+  text-decoration:line-through;
+  background-color:LightSkyBlue ;
+}
+.flex-container{
+ padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+  flex-flow:row no wrap;
+  
+  justify-content: space-around;
+  border:2px solid lightblue ;
+  border-radius:5px;
+ align-items:center;
+  transition:1s;
+  margin-bottom:15px;
+  margin: 15px 5px;
+  box-shadow:15px 10px 5px;
+  transition:1s;
+  background:url("http://img.ifreepic.com/963/188963_icon.jpg");
+}
+.flex-container:hover{
+  transform:translateY(-10px);
+}
+.flex-item{
+  text-align: center;
+  margin:auto;
+  margin-left:5px;
+  margin-right:5px;
+  flex-grow:1;
+  flex-basis:100px;
+}
+.flex-button-div{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  float:right;
+  width:60px;
+  margin-top:30px;
+}
+.flex-button-item{
+  width:50px;
+}
+button{
+  border-radius:5px;
+  margin-bottom:5px;
+  border:none;
+  background:Cornsilk;
+  box-shadow:2px 2px 2px;
+  transition:1s;
+}
+button:hover{
+  transform:translateX(-10px);
+  background:LightCoral   ;
+  border:none;
+}
+.flex-button-item:active{
+  background:DeepSkyBlue  ;
+  
+  }
+
+  .hide{
+  display:none;
+  }
+  .show{
+  display:block;
+  }
+  .show-flex{
+  display:flex;
+  }
+#skin{
+ cursor:not-allowed; 
+}
+ #skin:hover{
+ 
+  
+}
+
+@media screen and (max-width: 480px){
+  .flex-button-div{
+    float:none; 
+    margin:0 auto;
+    width:200px;
+    justify-content:space-between;
+    flex-direction:row;
+    
+  }
+  .flex-button-item{
+   align-self:center;
+    width:50px;
+    
+    
+  }
+  .flex-container{
+   justify-content:space-around;
+    flex-flow:row wrap;
+  }
+  .flex-item{
+   flex-grow:1;
+    flex-basis:300px;
+   
+  }
+  img{
+   max-width:60px; 
+  }
+}
+ul,li{
+  list-style-type:none;
+}
